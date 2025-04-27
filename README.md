@@ -24,3 +24,7 @@ The right way is to use a background worker (like Celery with Redis or even just
 ### 5. Assumption that Data is Static
 The current code assumes the input CSVs won't change during runtime.
 The system requirement says data will update every hour, so realistically, you should plan for re-ingesting or updating DB tables incrementally rather than wiping everything and reloading CSVs every time.
+
+
+##OUTPUT
+https://github.com/Kanhapyasi/Kanha-27-04-25/blob/main/media/reports/2_xmLdRBD.csv
