@@ -1,4 +1,4 @@
-# Kanha-27-04-25
+[2_xmLdRBD.csv](https://github.com/user-attachments/files/19928635/2_xmLdRBD.csv)# Kanha-27-04-25
 
 ## Some ideas of improving the solution
 
@@ -21,6 +21,7 @@ The current /trigger_report API waits until the whole report is generated.
 It’s not scalable. If the report takes 5 minutes to generate, your API will timeout.
 The right way is to use a background worker (like Celery with Redis or even just Python’s ThreadPoolExecutor) to do report generation, while the API just returns a report_id immediately.
 
+
 ### 5. Assumption that Data is Static
 The current code assumes the input CSVs won't change during runtime.
 The system requirement says data will update every hour, so realistically, you should plan for re-ingesting or updating DB tables incrementally rather than wiping everything and reloading CSVs every time.
@@ -28,3 +29,7 @@ The system requirement says data will update every hour, so realistically, you s
 
 ##OUTPUT
 https://github.com/Kanhapyasi/Kanha-27-04-25/blob/main/media/reports/2_xmLdRBD.csv
+
+[store_id,last_one_hour uptime,last_one_hour downtime,last_one_hour unit,last_one_day uptime,last_one_day downtime,last_one_day unit,last_one_week uptime,last_one_week downtime,last_one_week unit
+d7564e8c-0edb-4e6f-aa64-c72b701e3c57,0,60,minutes,0,0,hours,0,126,hours
+Uploading 2_xmLdRBD.csv…]()
