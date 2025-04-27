@@ -1,4 +1,4 @@
-[2_xmLdRBD.csv](https://github.com/user-attachments/files/19928635/2_xmLdRBD.csv)# Kanha-27-04-25
+# Kanha-27-04-25
 
 ## Some ideas of improving the solution
 
@@ -30,6 +30,5 @@ The system requirement says data will update every hour, so realistically, you s
 ##OUTPUT
 https://github.com/Kanhapyasi/Kanha-27-04-25/blob/main/media/reports/2_xmLdRBD.csv
 
-[store_id,last_one_hour uptime,last_one_hour downtime,last_one_hour unit,last_one_day uptime,last_one_day downtime,last_one_day unit,last_one_week uptime,last_one_week downtime,last_one_week unit
-d7564e8c-0edb-4e6f-aa64-c72b701e3c57,0,60,minutes,0,0,hours,0,126,hours
-Uploading 2_xmLdRBD.csv…]()
+[2_xmLdRBD.csv](https://github.com/user-attachments/files/19928635/2_xmLdRBD.csv
+
